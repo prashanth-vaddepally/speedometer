@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.thebackground {
+  background-color: black;
+  height: 100vh;
+  width: 100vw;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.theheading {
+  color: #ffffff;
+  font-size: 20px;
+}
+.imagesetting {
+  height: 25vh;
+  width: 20vw;
+}
+.thepara {
+  color: #94a3b8;
+  font-size: 16px;
+}
+.bothbuttons {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+.brake {
+  background-color: transparent;
+  color: #94a3b8;
+  height: 25px;
+  width: 110px;
+  border-radius: 15px;
+  margin: 12px;
+  cursor: pointer;
+}
+.acc {
+  background-color: #0b69ff;
+  color: #ffffff;
+  height: 25px;
+  width: 90px;
+  border-radius: 15px;
+  text-align: center;
+  cursor: pointer;
+}
